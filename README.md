@@ -1,4 +1,27 @@
-# Object Oriented Programming Lab - Bookstore 
+# Object Oriented Programming Lab - Bookstore
+
+## Results
+
+![Test session](image.png)
+
+![Test results](image-1.png)
+
+## Aneesh Kodali's Future Enhancements
+
+Along with the core functionality that the code provides regarding class attributes and methods, additional enhancements can be made to promote class data quality and ensure that attributes and methods work as intended:
+- Book
+  - `set_page_count()`
+    - Ensure that `value`
+      - is an integer.
+      - is between 1 and `page_count`.
+- Coffee
+  - tip()
+    - Can remove hardcoded logic that sets tip to 1 and allow for any value.
+      - 1 can be default value if no tip is provided.
+      - Could also add set tip to be x% of price if tip value is not provided.
+    - Ensure that `value`
+      - is an integer or float (can also test if `float(value)`) is legitimate.
+      - is a nonnegative amount (in theory a tip of 0 could be provided).
 
 This scenario should encompass all of the topics provided in the module. Now that you’ve delved into creating a new class in Python it is now time to practice this concept.
 
